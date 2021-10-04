@@ -4,6 +4,8 @@
  * Do not modify these two selectors, please
  */
 html {
+  font-family: 'Bungee', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -13,6 +15,7 @@ html {
 /*
  * Global layout stuff
  */
+
 
 body {
   color: #545149;
