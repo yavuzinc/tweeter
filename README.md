@@ -20,20 +20,19 @@ This repository is the starter code for the project: Students will fork and clon
 ## Screenshots of Final Product
 
 ### New Tweet
-
 !["Screenshot of Add a new Tweet"](https://github.com/yavuzinc/tweeter/blob/master/public/docs/main.png)
 
 ### Mobile Size Display
 !["Screenshot of Mobile Size Display"](https://github.com/yavuzinc/tweeter/blob/master/public/docs/mobile%20respon.png)
 
-### Error Msg - Submit Tweet With No Input
+### Error Message - Submit Tweet With No Input
 !["Screenshot of Error Msg With No Input"](https://github.com/yavuzinc/tweeter/blob/master/public/docs/char_0_Error.png)
 
-### Error Msg - Submit Tweet With Too Many Characters
+### Error Message - Submit Tweet With Too Many Characters
 !["Screenshot of Error Msg Too Many Characters"](https://github.com/yavuzinc/tweeter/blob/master/public/docs/char_over_140_error.png)
 
 ### Tweet Hover
 !["Screenshot of Mobile Size Display"](https://github.com/yavuzinc/tweeter/blob/master/public/docs/tweet_hover.png)
 
-h
+
 
