@@ -3,26 +3,57 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
-html {
-  font-family: 'Bungee', cursive;
-  font-family: 'Source Sans Pro', sans-serif;
+ html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
+a {
+  color: white;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+ 
 /*
  * Global layout stuff
  */
 
-
 body {
-  color: #545149;
-  background-color: #f4f1ec;
+  background-color: darkgray;
+  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  font-family: 'Bungee', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  
   font-size: 24px;
 }
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  border: 0;
+  border-top: 0.2em solid white;
+
+}
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ @media only screen and (max-width: 765px) {
+  body {
+    text-align: center;
+  }
+
+  #avatars{
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+}

@@ -1,0 +1,35 @@
+#nav{
+    color: #FFFFFF;
+    height: 120px;
+    background-color: #4056A1;
+}
+
+#logo{
+    font-family: 'Bungee', cursive;
+    margin-left: 1.4em;
+}
+
+.innerContent{
+    margin-right: 1.4em;
+}
+
+.fa-angle-double-down {
+    color: white;
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes bounce {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(5px);}
+    100% {transform: translateY(0);}
+  }
+  
+  /* Keep nav in place*/
+  
+  .sticky {
+    position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+  }
